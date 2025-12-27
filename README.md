@@ -33,7 +33,6 @@ You only need Python installed on your system.
    python main.py
    ```
 
-   *(If your file name is different, adjust the command accordingly.)*
 
 ## 🖱️ Controls
 
