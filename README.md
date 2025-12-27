@@ -1,52 +1,55 @@
-# Saat
+# Saat – Minimal Floating Clock
 
-**Saf Python. Sıfır Bağımlılık. Maksimum Minimalizm.**
+**Pure Python. Zero Dependencies. Clean and Minimal.**
 
-Saat, masaüstünüzde havada asılı duran, çerçevesiz ve arka planı tamamen şeffaf olan ultra hafif bir dijital saattir. Harici hiçbir kütüphane (3rd party library) kullanılmadan, sadece Python'ın standart kütüphanesi ile yazılmıştır.
+Saat is an ultra-lightweight digital clock that floats on your desktop with no window frame and a fully transparent background. It is written using only Python’s standard library, with no third-party dependencies.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square\&logo=python)
 ![Size](https://img.shields.io/badge/Size-Tiny-green?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
-## 🌟 Özellikler
+## ✨ Features
 
-* **Sıfır "Bloat":** `pip install` gerektirmez. Sadece Python ve `tkinter` (zaten gömülü gelir).
-* **Hayalet Modu:** Pencere kenarlığı, başlık çubuğu veya arka plan rengi yoktur. Sadece zamanı görürsünüz.
-* **Her Zaman Üstte:** Diğer pencerelerin altında kaybolmaz (`Always on Top`).
-* **Sürükle & Bırak:** Pencere çerçevesi olmasa bile saati tutup ekranın istediğiniz yerine taşıyabilirsiniz.
-* **Kaynak Dostu:** CPU ve RAM kullanımı yok denecek kadar azdır.
+* **No Dependencies:** No `pip install` required. Uses only Python and `tkinter` (included by default).
+* **Borderless & Transparent:** No window frame, title bar, or background — only the time is visible.
+* **Always on Top:** Stays visible above other windows.
+* **Draggable:** Move the clock anywhere on the screen despite having no window frame.
+* **Lightweight:** Minimal CPU and memory usage.
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Installation & Run
 
-Bu projeyi çalıştırmak için bilgisayarınızda Python'ın yüklü olması yeterlidir.
+You only need Python installed on your system.
 
-1.  Repoyu klonlayın veya zip olarak indirin:
-    ```bash
-    git clone [https://github.com/ibodeth/Saat.git](https://github.com/ibodeth/Saat.git)
-    cd Saat
-    ```
+1. Clone the repository or download it as a ZIP:
 
-2.  Scripti çalıştırın:
-    ```bash
-    python main.py
-    ```
-    *(Not: Dosya adınız `main.py` değilse uygun şekilde değiştirin)*
+   ```bash
+   git clone https://github.com/ibodeth/Saat.git
+   cd Saat
+   ```
 
-## 🎮 Kontroller
+2. Run the script:
 
-Arayüz olmadığı için kontroller mouse hareketlerine entegre edilmiştir:
+   ```bash
+   python main.py
+   ```
 
-| Eylem | Sonuç |
-| :--- | :--- |
-| **Sol Tık + Sürükle** | Saati ekranın herhangi bir yerine taşır. |
-| **Sağ Tık** | Uygulamayı anında kapatır. |
+   *(If your file name is different, adjust the command accordingly.)*
 
-## 🛠️ Teknik Detaylar
+## 🖱️ Controls
 
-* **Platform:** Windows (Şeffaflık ayarları Windows pencere yöneticisi için optimize edilmiştir).
-* **Kütüphaneler:** `tkinter`, `time`
-* **Font:** Consolas (Sisteminizde yoksa varsayılan monospace fonta döner).
+Since there is no traditional UI, interactions are handled via mouse actions:
 
-## 📝 Lisans
+| Action                | Result                                |
+| --------------------- | ------------------------------------- |
+| **Left Click + Drag** | Move the clock anywhere on the screen |
+| **Right Click**       | Exit the application                  |
 
-Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır. İstediğiniz gibi kullanabilir, değiştirebilir ve dağıtabilirsiniz.
+## 🔧 Technical Details
+
+* **Platform:** Windows (transparency is optimized for the Windows window manager)
+* **Libraries:** `tkinter`, `time`
+* **Font:** Consolas (falls back to a default monospace font if unavailable)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute it.
