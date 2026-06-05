@@ -2,6 +2,8 @@
 
 **Pure Python. Zero Dependencies. Clean and Minimal.**
 
+> **Note:** This is a lightweight floating desktop clock widget.
+
 Saat is an ultra-lightweight digital clock that floats on your desktop with no window frame and a fully transparent background. It is written using only Python’s standard library, with no third-party dependencies.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square\&logo=python)
